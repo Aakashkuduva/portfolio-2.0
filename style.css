@@ -105,10 +105,12 @@ body {
 }
 .sales-img{
     position: relative;
+
 }
 
-.sales-img {
+.sales-img img {
     width: 100%;
+   
 }
 .sale-img__offer{
     background-color: white;
@@ -222,11 +224,18 @@ body {
  }
     
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
    .course-card{
     flex-basis: 40%;
    }
    .categories{
     display: none;
+   }
+   .navbar__s2,.navbar__s3{
+    display: none;
+
+   }
+   .navbar__s4{
+    display: block;
    }
 }
